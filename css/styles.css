@@ -95,6 +95,9 @@ font: inherit;
     display:flex;
 }
 
+.container{
+    background-color: #5052b5;
+}
 /*====================================*/
 
 /*=============NAVBAR==================*/
@@ -193,7 +196,45 @@ header.scrolled{
 
 .inner{
     padding: 4em 4em 2em 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.img-top{
+    margin:2.4rem 0 2.4rem 0;
+}
+
+/*================Integrantes=======================*/
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    background-color: #fff;
+}
+.integrante-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding:1em;
+}
+
+.integrante-1 img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fffb6c;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.integrante-1 p{
+    line-height: 2;
+}
+
+/*=================================================*/
 
 
 
