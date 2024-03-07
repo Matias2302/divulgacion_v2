@@ -170,6 +170,9 @@ button:hover, .button:hover {
     border-color: rgba(255, 255, 255, 0.55) !important;
     background-color:rgba(49, 36, 80, 0.55);
 }
+.container{
+    background-color: #5052b5;
+}
 /*====================================*/
 
 /*=============NAVBAR==================*/
@@ -267,102 +270,10 @@ header.scrolled{
 }
 
 .inner{
-    padding: 3rem 3rem 2rem 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    padding: 4em 4em 2em 4em;
 }
 
-.img-top{
-    margin:2.4rem 0 2.4rem 0;
-}
 
-/*================Integrantes=======================*/
-
-.card{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding:2rem;
-    background-color: #fff;
-}
-.integrante{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding:1rem;
-}
-
-.integrante img{
-    width: 250px;
-    height: 250px;
-    margin-bottom: 1.4rem;
-    border: 2px solid #312450;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.integrante p{
-    line-height: 2;
-}
-
-#integrantes h2{
-    padding: 3rem;
-    text-align: center;
-    letter-spacing: 0.25rem;
-}
-
-/*=================================================*/
-/*===================proyectos=====================*/
-
-.proyecto{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.proyecto-card{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.card-placa{
-    background-color: #FFF;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 1.25rem;
-    position: relative;
-    margin-bottom:1.5rem;
-    transition: 0.15s ease-in;
-}
-
-.texto-card{
-    display:flex;
-    flex-direction: column;
-    padding:3rem;
-    color: #fff;
-}
-
-/*====================================================*/
-
-/*=====================footer===========================*/
-
-footer{
-    height: 4rem;
-    padding: 3em 0 6em 0;
-    background-color: #493382;
-}
-.icons{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size:1.3rem;
-    padding:0;
-    margin-bottom:2rem;
-    color:#fff;
-}
-/*======================================================*/
 
 /*=========DESKTOP=======================*/
 
